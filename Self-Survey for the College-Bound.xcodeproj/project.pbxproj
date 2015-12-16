@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C056DD91C1FE69D00F1CC88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C056DD81C1FE69D00F1CC88 /* AppDelegate.swift */; };
+		4C056DDB1C1FE69D00F1CC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C056DDA1C1FE69D00F1CC88 /* Assets.xcassets */; };
+		4C056DDE1C1FE69D00F1CC88 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C056DDC1C1FE69D00F1CC88 /* MainMenu.xib */; };
+		4C056DE91C1FE69D00F1CC88 /* Self_Survey_for_the_College_BoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C056DE81C1FE69D00F1CC88 /* Self_Survey_for_the_College_BoundTests.swift */; };
+		4C056DF41C1FE69D00F1CC88 /* Self_Survey_for_the_College_BoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C056DF31C1FE69D00F1CC88 /* Self_Survey_for_the_College_BoundUITests.swift */; };
+		4C056E061C1FEF8000F1CC88 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C056E051C1FEF8000F1CC88 /* Question.swift */; };
+		4C056E071C1FEF8000F1CC88 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C056E051C1FEF8000F1CC88 /* Question.swift */; };
+		4C056E081C1FEF8000F1CC88 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C056E051C1FEF8000F1CC88 /* Question.swift */; };
+		4C056E0A1C20187700F1CC88 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C056E091C20187700F1CC88 /* Category.swift */; };
+		4C056E0B1C20187700F1CC88 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C056E091C20187700F1CC88 /* Category.swift */; };
+		4C056E0C1C20187700F1CC88 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C056E091C20187700F1CC88 /* Category.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C056DE51C1FE69D00F1CC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C056DCD1C1FE69D00F1CC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C056DD41C1FE69D00F1CC88;
+			remoteInfo = "Self-Survey for the College-Bound";
+		};
+		4C056DF01C1FE69D00F1CC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C056DCD1C1FE69D00F1CC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C056DD41C1FE69D00F1CC88;
+			remoteInfo = "Self-Survey for the College-Bound";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C056DD51C1FE69D00F1CC88 /* Self-Survey for the College-Bound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self-Survey for the College-Bound.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C056DD81C1FE69D00F1CC88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C056DDA1C1FE69D00F1CC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C056DDD1C1FE69D00F1CC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4C056DDF1C1FE69D00F1CC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C056DE41C1FE69D00F1CC88 /* Self-Survey for the College-BoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Self-Survey for the College-BoundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C056DE81C1FE69D00F1CC88 /* Self_Survey_for_the_College_BoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_Survey_for_the_College_BoundTests.swift; sourceTree = "<group>"; };
+		4C056DEA1C1FE69D00F1CC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C056DEF1C1FE69D00F1CC88 /* Self-Survey for the College-BoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Self-Survey for the College-BoundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C056DF31C1FE69D00F1CC88 /* Self_Survey_for_the_College_BoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_Survey_for_the_College_BoundUITests.swift; sourceTree = "<group>"; };
+		4C056DF51C1FE69D00F1CC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C056E051C1FEF8000F1CC88 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		4C056E091C20187700F1CC88 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C056DD21C1FE69D00F1CC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C056DE11C1FE69D00F1CC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C056DEC1C1FE69D00F1CC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C056DCC1C1FE69D00F1CC88 = {
+			isa = PBXGroup;
+			children = (
+				4C056DD71C1FE69D00F1CC88 /* Self-Survey for the College-Bound */,
+				4C056DE71C1FE69D00F1CC88 /* Self-Survey for the College-BoundTests */,
+				4C056DF21C1FE69D00F1CC88 /* Self-Survey for the College-BoundUITests */,
+				4C056DD61C1FE69D00F1CC88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C056DD61C1FE69D00F1CC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C056DD51C1FE69D00F1CC88 /* Self-Survey for the College-Bound.app */,
+				4C056DE41C1FE69D00F1CC88 /* Self-Survey for the College-BoundTests.xctest */,
+				4C056DEF1C1FE69D00F1CC88 /* Self-Survey for the College-BoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C056DD71C1FE69D00F1CC88 /* Self-Survey for the College-Bound */ = {
+			isa = PBXGroup;
+			children = (
+				4C056DD81C1FE69D00F1CC88 /* AppDelegate.swift */,
+				4C056DDA1C1FE69D00F1CC88 /* Assets.xcassets */,
+				4C056DDC1C1FE69D00F1CC88 /* MainMenu.xib */,
+				4C056DDF1C1FE69D00F1CC88 /* Info.plist */,
+				4C056E051C1FEF8000F1CC88 /* Question.swift */,
+				4C056E091C20187700F1CC88 /* Category.swift */,
+			);
+			path = "Self-Survey for the College-Bound";
+			sourceTree = "<group>";
+		};
+		4C056DE71C1FE69D00F1CC88 /* Self-Survey for the College-BoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C056DE81C1FE69D00F1CC88 /* Self_Survey_for_the_College_BoundTests.swift */,
+				4C056DEA1C1FE69D00F1CC88 /* Info.plist */,
+			);
+			path = "Self-Survey for the College-BoundTests";
+			sourceTree = "<group>";
+		};
+		4C056DF21C1FE69D00F1CC88 /* Self-Survey for the College-BoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C056DF31C1FE69D00F1CC88 /* Self_Survey_for_the_College_BoundUITests.swift */,
+				4C056DF51C1FE69D00F1CC88 /* Info.plist */,
+			);
+			path = "Self-Survey for the College-BoundUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C056DD41C1FE69D00F1CC88 /* Self-Survey for the College-Bound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C056DF81C1FE69D00F1CC88 /* Build configuration list for PBXNativeTarget "Self-Survey for the College-Bound" */;
+			buildPhases = (
+				4C056DD11C1FE69D00F1CC88 /* Sources */,
+				4C056DD21C1FE69D00F1CC88 /* Frameworks */,
+				4C056DD31C1FE69D00F1CC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Self-Survey for the College-Bound";
+			productName = "Self-Survey for the College-Bound";
+			productReference = 4C056DD51C1FE69D00F1CC88 /* Self-Survey for the College-Bound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C056DE31C1FE69D00F1CC88 /* Self-Survey for the College-BoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C056DFB1C1FE69D00F1CC88 /* Build configuration list for PBXNativeTarget "Self-Survey for the College-BoundTests" */;
+			buildPhases = (
+				4C056DE01C1FE69D00F1CC88 /* Sources */,
+				4C056DE11C1FE69D00F1CC88 /* Frameworks */,
+				4C056DE21C1FE69D00F1CC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C056DE61C1FE69D00F1CC88 /* PBXTargetDependency */,
+			);
+			name = "Self-Survey for the College-BoundTests";
+			productName = "Self-Survey for the College-BoundTests";
+			productReference = 4C056DE41C1FE69D00F1CC88 /* Self-Survey for the College-BoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C056DEE1C1FE69D00F1CC88 /* Self-Survey for the College-BoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C056DFE1C1FE69D00F1CC88 /* Build configuration list for PBXNativeTarget "Self-Survey for the College-BoundUITests" */;
+			buildPhases = (
+				4C056DEB1C1FE69D00F1CC88 /* Sources */,
+				4C056DEC1C1FE69D00F1CC88 /* Frameworks */,
+				4C056DED1C1FE69D00F1CC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C056DF11C1FE69D00F1CC88 /* PBXTargetDependency */,
+			);
+			name = "Self-Survey for the College-BoundUITests";
+			productName = "Self-Survey for the College-BoundUITests";
+			productReference = 4C056DEF1C1FE69D00F1CC88 /* Self-Survey for the College-BoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C056DCD1C1FE69D00F1CC88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Russell Slighton";
+				TargetAttributes = {
+					4C056DD41C1FE69D00F1CC88 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4C056DE31C1FE69D00F1CC88 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4C056DD41C1FE69D00F1CC88;
+					};
+					4C056DEE1C1FE69D00F1CC88 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4C056DD41C1FE69D00F1CC88;
+					};
+				};
+			};
+			buildConfigurationList = 4C056DD01C1FE69D00F1CC88 /* Build configuration list for PBXProject "Self-Survey for the College-Bound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C056DCC1C1FE69D00F1CC88;
+			productRefGroup = 4C056DD61C1FE69D00F1CC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C056DD41C1FE69D00F1CC88 /* Self-Survey for the College-Bound */,
+				4C056DE31C1FE69D00F1CC88 /* Self-Survey for the College-BoundTests */,
+				4C056DEE1C1FE69D00F1CC88 /* Self-Survey for the College-BoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C056DD31C1FE69D00F1CC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C056DDB1C1FE69D00F1CC88 /* Assets.xcassets in Resources */,
+				4C056DDE1C1FE69D00F1CC88 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C056DE21C1FE69D00F1CC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C056DED1C1FE69D00F1CC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C056DD11C1FE69D00F1CC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C056DD91C1FE69D00F1CC88 /* AppDelegate.swift in Sources */,
+				4C056E0A1C20187700F1CC88 /* Category.swift in Sources */,
+				4C056E061C1FEF8000F1CC88 /* Question.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C056DE01C1FE69D00F1CC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C056DE91C1FE69D00F1CC88 /* Self_Survey_for_the_College_BoundTests.swift in Sources */,
+				4C056E0B1C20187700F1CC88 /* Category.swift in Sources */,
+				4C056E071C1FEF8000F1CC88 /* Question.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C056DEB1C1FE69D00F1CC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C056DF41C1FE69D00F1CC88 /* Self_Survey_for_the_College_BoundUITests.swift in Sources */,
+				4C056E0C1C20187700F1CC88 /* Category.swift in Sources */,
+				4C056E081C1FEF8000F1CC88 /* Question.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C056DE61C1FE69D00F1CC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C056DD41C1FE69D00F1CC88 /* Self-Survey for the College-Bound */;
+			targetProxy = 4C056DE51C1FE69D00F1CC88 /* PBXContainerItemProxy */;
+		};
+		4C056DF11C1FE69D00F1CC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C056DD41C1FE69D00F1CC88 /* Self-Survey for the College-Bound */;
+			targetProxy = 4C056DF01C1FE69D00F1CC88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C056DDC1C1FE69D00F1CC88 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C056DDD1C1FE69D00F1CC88 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C056DF61C1FE69D00F1CC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C056DF71C1FE69D00F1CC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C056DF91C1FE69D00F1CC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Self-Survey for the College-Bound/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Russell-Slighton.Self-Survey-for-the-College-Bound";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C056DFA1C1FE69D00F1CC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Self-Survey for the College-Bound/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Russell-Slighton.Self-Survey-for-the-College-Bound";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C056DFC1C1FE69D00F1CC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Self-Survey for the College-BoundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Russell-Slighton.Self-Survey-for-the-College-BoundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Self-Survey for the College-Bound.app/Contents/MacOS/Self-Survey for the College-Bound";
+			};
+			name = Debug;
+		};
+		4C056DFD1C1FE69D00F1CC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Self-Survey for the College-BoundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Russell-Slighton.Self-Survey-for-the-College-BoundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Self-Survey for the College-Bound.app/Contents/MacOS/Self-Survey for the College-Bound";
+			};
+			name = Release;
+		};
+		4C056DFF1C1FE69D00F1CC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Self-Survey for the College-BoundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Russell-Slighton.Self-Survey-for-the-College-BoundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Self-Survey for the College-Bound";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4C056E001C1FE69D00F1CC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Self-Survey for the College-BoundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Russell-Slighton.Self-Survey-for-the-College-BoundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Self-Survey for the College-Bound";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C056DD01C1FE69D00F1CC88 /* Build configuration list for PBXProject "Self-Survey for the College-Bound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C056DF61C1FE69D00F1CC88 /* Debug */,
+				4C056DF71C1FE69D00F1CC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C056DF81C1FE69D00F1CC88 /* Build configuration list for PBXNativeTarget "Self-Survey for the College-Bound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C056DF91C1FE69D00F1CC88 /* Debug */,
+				4C056DFA1C1FE69D00F1CC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C056DFB1C1FE69D00F1CC88 /* Build configuration list for PBXNativeTarget "Self-Survey for the College-BoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C056DFC1C1FE69D00F1CC88 /* Debug */,
+				4C056DFD1C1FE69D00F1CC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C056DFE1C1FE69D00F1CC88 /* Build configuration list for PBXNativeTarget "Self-Survey for the College-BoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C056DFF1C1FE69D00F1CC88 /* Debug */,
+				4C056E001C1FE69D00F1CC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C056DCD1C1FE69D00F1CC88 /* Project object */;
+}
