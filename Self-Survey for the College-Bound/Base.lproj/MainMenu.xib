@@ -812,10 +812,10 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" preferredMaxLayoutWidth="440" translatesAutoresizingMaskIntoConstraints="NO" id="eAf-Ks-o0i">
-                    <rect key="frame" x="18" y="234" width="442" height="68"/>
+                    <rect key="frame" x="18" y="212" width="442" height="90"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="438" id="Drb-PZ-t2k"/>
-                        <constraint firstAttribute="height" constant="68" id="NHc-uN-fZQ"/>
+                        <constraint firstAttribute="height" constant="90" id="NHc-uN-fZQ"/>
                     </constraints>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="&lt;Do not localize&gt;" id="0j0-Ta-7jS">
                         <font key="font" metaFont="system" size="20"/>

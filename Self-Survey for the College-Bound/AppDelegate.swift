@@ -84,7 +84,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         question(question: "26 - My parents don’t have to remind me to study or do my homework.", type: 5),
         question(question: "27 - My English teachers commend me on the quality of my papers and written assignments.", type: 4),
         question(question: "28 - Making others happy is one of my primary goals.", type: 7),
-        question(question: "29 - Most of the time, Ii feel others understand me.", type: 8),
+        question(question: "29 - Most of the time, I feel others understand me.", type: 8),
         question(question: "30 - On most homework assignments, I do everything that needs to be done.", type: 1),
         question(question: "31 - I am comfortable making some decisions without my parents’ input.", type: 5),
         question(question: "32 - I want to commit at least part of my life to bettering society.", type: 7),
@@ -276,8 +276,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             
         }
     }
-        let text: String =  "School Enthusiams: " + String(schoolEnthusiasm) + "\n" +
+        let text: String =  "School Enthusiam: " + String(schoolEnthusiasm) + "\n" +
                             "Participant Learner: " + String(participantLearner) + "\n" +
+                            "Affection For Knowledge" + String(affectionForKnowledge) + "\n" +
                             "Basic Academic Skills: " + String(affectionForKnowledge) + "\n" +
                             "Independence: " + String(independence) + "\n" +
                             "Career Orientation: " + String(careerOrientation) + "\n" +
@@ -297,5 +298,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
 }
-
+//
 
